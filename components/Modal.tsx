@@ -11,7 +11,7 @@ interface ModalProps {
 
 import React from "react"
 
-const Modal: React.FC<Modalprops> = ({
+const Modal: React.FC<ModalProps> = ({
     isOpen,
     onChange,
     title,
