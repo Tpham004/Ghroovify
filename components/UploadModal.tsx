@@ -111,6 +111,7 @@ const onSubmit: SubmitHandler<FieldValues> = async (values) => {
       toast.success('Song created!');
       reset();
       uploadModal.onClose();
+      
     } catch (error) {
       toast.error("Something went wrong");
     } finally {
