@@ -17,5 +17,5 @@ const Slider: React.FC<SliderProps> = ({
     </div>
   )
 };
-
+//todo
 export default Slider;
