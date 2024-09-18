@@ -6,7 +6,7 @@ interface SliderProps {
     value?: number;
     onChange?: (value: number) => void;
 };
-
+//finish out TD
 const Slider: React.FC<SliderProps> = ({
     value = 1,
     onChange
@@ -17,5 +17,5 @@ const Slider: React.FC<SliderProps> = ({
     </div>
   )
 };
-//todo
+
 export default Slider;
